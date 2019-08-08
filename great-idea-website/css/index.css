@@ -78,22 +78,24 @@ nav * {
 	margin-top: 55px;
 }
 
+a{
+	text-decoration: none;
+}
+
 .aHeader {
 	margin-top: 40px;
+	margin-bottom: 40px
 }
 
 #getStarted {
 	margin: auto;
 	text-align: center;
 	border: 1px solid gray;
-	width: 100px;
-
+	width: 200px;
 	padding: 10px 20px;
 }
 
 .aHeader .headerText{
-
-
 	overflow: unset;
 	width: 500px;
 	display: inline-block;
@@ -101,7 +103,8 @@ nav * {
 }
 
 header h1 {
-font-size: 130px;
+	font-size: 100px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow';
 	width: 500px;
 	text-align: center;
 }
@@ -117,17 +120,25 @@ font-size: 130px;
 
 .top-content * {
 	display: inline-block;
-	width: 600px;
+	width: 700px;
 }
 
-.top-content div:last-child{
-	margin-left: 100px;
+.features{
+	float: left;
+}
+
+.about{
+	float: right;
 }
 
 .content *{
 	margin-top: 20px;
+	margin-bottom: 10px;
 }
 
+.middle-img{
+	width: 100%;
+}
 
 .bottom-section {
 	width: 400px;
