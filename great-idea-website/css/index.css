@@ -64,3 +64,96 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.head {
+	margin: 0 75px 0;
+}
+
+nav * {
+	color: gray;
+	margin-left: 120px;
+}
+
+.top-nav {
+	margin-top: 55px;
+}
+
+a{
+	text-decoration: none;
+}
+
+.aHeader {
+	margin-top: 40px;
+	margin-bottom: 40px
+}
+
+#getStarted {
+	margin: auto;
+	text-align: center;
+	border: 1px solid gray;
+	width: 200px;
+	padding: 10px 20px;
+}
+
+.aHeader .headerText{
+	overflow: unset;
+	width: 500px;
+	display: inline-block;
+	margin-left: 200px;
+}
+
+header h1 {
+	font-size: 100px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+	width: 500px;
+	text-align: center;
+}
+
+.header-image {
+	display: inline-block;
+	margin-left: 200px;
+}
+
+.top-content {
+	border-top: 1px solid black;
+}
+
+.top-content * {
+	display: inline-block;
+	width: 700px;
+}
+
+.features{
+	float: left;
+}
+
+.about{
+	float: right;
+}
+
+.content *{
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.middle-img{
+	width: 100%;
+}
+
+.bottom-section {
+	width: 400px;
+	display: inline-block;
+}
+
+footer {
+	text-align: right;
+}
+
+.bottom {
+	margin-top: 20px;
+	border-top: 1px solid black;
+}
+
+.bottom h5, address{
+	margin-top: 20px;
+}
